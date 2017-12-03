@@ -8,16 +8,18 @@ p {
     color: palevioletred;
 }
 
-a, span, div {
+a,
+span,
+div {
     color: blue;
 }
 
 li > a {
-    background-color:yellow;
+    background-color: yellow;
 }
 
 li a {
-    background-color:yellow;
+    background-color: yellow;
 }
 
 h2 ~ h3 {
@@ -28,6 +30,6 @@ ul > li:not(.last) {
     color: palevioletred;
 }
 
-ol > li:nth-child(odd){
+ol > li:nth-child(odd) {
     background-color: orange;
 }
