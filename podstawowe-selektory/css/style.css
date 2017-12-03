@@ -1,0 +1,33 @@
+/*selektor znacznika */
+
+p {
+    color: grey;
+}
+
+#paragraf {
+    color: palevioletred;
+}
+
+a, span, div {
+    color: blue;
+}
+
+li > a {
+    background-color:yellow;
+}
+
+li a {
+    background-color:yellow;
+}
+
+h2 ~ h3 {
+    color: green;
+}
+
+ul > li:not(.last) {
+    color: palevioletred;
+}
+
+ol > li:nth-child(odd){
+    background-color: orange;
+}
